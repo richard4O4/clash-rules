@@ -71,6 +71,7 @@ DOMAIN-SUFFIX,gd95105888.com
 DOMAIN-SUFFIX,sinopec.com
 
 # Tencent
+DOMAIN-SUFFIX,cdntips.net
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,wxcloudrun.com
 

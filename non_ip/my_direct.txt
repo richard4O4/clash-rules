@@ -71,6 +71,7 @@
 +.sinopec.com
 
 # Tencent
++.cdntips.net
 +.servicewechat.com
 +.wxcloudrun.com
 
