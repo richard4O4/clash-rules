@@ -1,0 +1,103 @@
+# Alibaba
++.alibabachengdun.com
++.goofish.com
+
+# Bilibili
++.bilicomic.com
+
+# ByteDance
++.amemv.com
++.bdurl.net
++.bsccdn.net
++.bytedance.com
++.bytedance.net
++.bytednsdoc.com
++.byteeffecttos.com
++.bytegecko.com
++.bytegoofy.com
++.byteimg.com
++.bytescm.com
++.bytetcc.com
++.bytetos.com
++.ecombdapi.com
++.ecombdpage.com
++.idouyinvod.com
++.saxysec.com
++.volcsirius.com
++.zijieapi.com
+
+# CN
++.cn
+
+# Fenbi
++.fbstatic.cn
++.fenbi.com
+
+# JD
++.300hu.com
++.51epei.com
++.7fresh.com
++.baitiao.com
++.dd-advisor.com
++.duolabao.com
++.healthjd.com
++.jcloud.com
++.jdbusiness.com
++.jddj.com
++.jdh.com
++.jdl.com
++.jdwl.com
++.jhscm.com
++.jingdong.com
++.jingxi.com
++.jkcsjd.com
++.sqqmtj.com
++.tjjt360.com
++.vipmro.com
++.vipmro.net
++.ybscjp.com
++.yiyaojd.com
++.yunpei.com
++.yunxiu.com
+
+# SF Express
++.sf-express.com
+
+# Shenzhen Metro
++.shenzhenmc.com
+
+# Sinopec
++.gd95105888.com
++.sinopec.com
+
+# Tencent
++.servicewechat.com
++.wxcloudrun.com
+
+# Tipray
++.tipray.com
+
+# ToDesk
++.todesk.com
+
+# Tuhu
++.tongdun.net
++.tuhu.com
++.tuhu.org
+
+# Zuiyou
++.ctobsnssdk.com
++.fengkongcloud.com
++.gifshow.com
++.ixiaochuan.cn
++.izuiyou.com
++.kuiniuca.com
++.onethingpcs.com
++.pangolin-sdk-toutiao.com
++.pangolin-sdk-toutiao1.com
++.pglstatp-toutiao.com
++.ugdtimg.com
++.uhabo.com
++.volces.com
++.xf-yun.com
++.xycdn.com

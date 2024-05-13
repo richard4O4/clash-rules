@@ -1,0 +1,6 @@
+# ByteDance
+DOMAIN-SUFFIX,app-measurement.com
+
+# Zuiyou
+DOMAIN,adapi.izuiyou.com
+DOMAIN-SUFFIX,adukwai.com

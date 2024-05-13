@@ -1,0 +1,6 @@
+# ByteDance
++.app-measurement.com
+
+# Zuiyou
+adapi.izuiyou.com
++.adukwai.com
