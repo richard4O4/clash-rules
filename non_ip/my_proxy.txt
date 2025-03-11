@@ -1,3 +1,6 @@
 # DeepSeek
 +.deepseek.com
 +.volces.com
+
+# Google
++.google.com
