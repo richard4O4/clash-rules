@@ -33,6 +33,11 @@ DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,fbstatic.cn
 DOMAIN-SUFFIX,fenbi.com
 
+# Huawei
+DOMAIN-SUFFIX,chinasoftinc.com
+DOMAIN-SUFFIX,huaweicloud.com
+DOMAIN-SUFFIX,myhuaweicloud.com
+
 # JD
 DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,51epei.com
