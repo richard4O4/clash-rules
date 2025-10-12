@@ -33,6 +33,11 @@
 +.fbstatic.cn
 +.fenbi.com
 
+# Huawei
++.chinasoftinc.com
++.huaweicloud.com
++.myhuaweicloud.com
+
 # JD
 +.300hu.com
 +.51epei.com
