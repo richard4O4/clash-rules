@@ -65,6 +65,11 @@ DOMAIN-SUFFIX,yiyaojd.com
 DOMAIN-SUFFIX,yunpei.com
 DOMAIN-SUFFIX,yunxiu.com
 
+# Payment
+DOMAIN-SUFFIX,ourduda.com
+DOMAIN-SUFFIX,shouqianba.com
+DOMAIN-SUFFIX,wosaimg.com
+
 # SF Express
 DOMAIN-SUFFIX,sf-express.com
 

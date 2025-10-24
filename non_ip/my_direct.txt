@@ -65,6 +65,11 @@
 +.yunpei.com
 +.yunxiu.com
 
+# Payment
++.ourduda.com
++.shouqianba.com
++.wosaimg.com
+
 # SF Express
 +.sf-express.com
 
