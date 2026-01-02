@@ -26,6 +26,9 @@
 +.volcsirius.com
 +.zijieapi.com
 
+# catering
++.canyin88.com
+
 # CN
 +.cn
 
@@ -96,6 +99,9 @@
 +.tuhu.com
 +.tuhu.org
 
+# Xiaoshi Technology
++.xiaoshikeji.net
+
 # Zuiyou
 +.ctobsnssdk.com
 +.fengkongcloud.com
@@ -112,3 +118,6 @@
 +.volces.com
 +.xf-yun.com
 +.xycdn.com
+
+# 2bulu
++.2bulu.com

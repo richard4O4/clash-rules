@@ -26,6 +26,9 @@ DOMAIN-SUFFIX,saxysec.com
 DOMAIN-SUFFIX,volcsirius.com
 DOMAIN-SUFFIX,zijieapi.com
 
+# catering
+DOMAIN-SUFFIX,canyin88.com
+
 # CN
 DOMAIN-SUFFIX,cn
 
@@ -96,6 +99,9 @@ DOMAIN-SUFFIX,tongdun.net
 DOMAIN-SUFFIX,tuhu.com
 DOMAIN-SUFFIX,tuhu.org
 
+# Xiaoshi Technology
+DOMAIN-SUFFIX,xiaoshikeji.net
+
 # Zuiyou
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,fengkongcloud.com
@@ -112,3 +118,6 @@ DOMAIN-SUFFIX,uhabo.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,xf-yun.com
 DOMAIN-SUFFIX,xycdn.com
+
+# 2bulu
+DOMAIN-SUFFIX,2bulu.com
