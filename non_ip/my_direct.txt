@@ -68,10 +68,6 @@
 +.yunpei.com
 +.yunxiu.com
 
-# KFC
-+.kfc.com.cn
-+.example.com
-
 # Payment
 +.ourduda.com
 +.shouqianba.com
