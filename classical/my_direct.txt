@@ -69,10 +69,6 @@ DOMAIN-SUFFIX,yiyaojd.com
 DOMAIN-SUFFIX,yunpei.com
 DOMAIN-SUFFIX,yunxiu.com
 
-# KFC
-DOMAIN-SUFFIX,kfc.com.cn
-DOMAIN-SUFFIX,example.com
-
 # Payment
 DOMAIN-SUFFIX,ourduda.com
 DOMAIN-SUFFIX,shouqianba.com
