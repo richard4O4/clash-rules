@@ -13,6 +13,8 @@ function ensureDir(dir) {
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
+const MARKER_DOMAIN = '7h1s_rul35et_i5_mad3_by_r1ch4rd404-clash-rules.github.io';
+
 ensureDir('classical');
 
 files.forEach(file => {
@@ -23,10 +25,11 @@ files.forEach(file => {
     const content = fs.readFileSync(file, 'utf8');
     const lines = content.split('\n');
 
-    const classicalLines = [];
+    const classicalLines = [`DOMAIN,${MARKER_DOMAIN}`];
     const singboxRule = {
-        domain: [],
-        domain_suffix: [],
+        domain: [MARKER_DOMAIN],
+        domain_suffix: [MARKER_DOMAIN],
+        domain_keyword: [],
         ip_cidr: [],
         ip_asn: []
     };
@@ -44,12 +47,14 @@ files.forEach(file => {
                 classicalLines.push(`DOMAIN-SUFFIX,${domain}`);
                 singboxRule.domain_suffix.push(domain);
             } else if (trimmed.startsWith('DOMAIN,')) {
-                // Already has prefix
                 classicalLines.push(trimmed);
                 singboxRule.domain.push(trimmed.substring(7));
             } else if (trimmed.startsWith('DOMAIN-SUFFIX,')) {
                 classicalLines.push(trimmed);
                 singboxRule.domain_suffix.push(trimmed.substring(14));
+            } else if (trimmed.startsWith('DOMAIN-KEYWORD,')) {
+                classicalLines.push(trimmed);
+                singboxRule.domain_keyword.push(trimmed.substring(15));
             } else {
                 classicalLines.push(`DOMAIN,${trimmed}`);
                 singboxRule.domain.push(trimmed);
@@ -76,23 +81,23 @@ files.forEach(file => {
 
     // Write Sing-box JSON
     const jsonFile = file.replace('.txt', '.json');
-    const filteredRule = Object.fromEntries(
-        Object.entries(singboxRule).filter(([_, v]) => v.length > 0)
-    );
+    
+    // Ensure the rule object has version 2 and a structure matching Sukka's
+    const ruleObject = {
+        domain: singboxRule.domain,
+        domain_suffix: singboxRule.domain_suffix
+    };
 
-    if (Object.keys(filteredRule).length > 0) {
-        const singboxOutput = {
-            version: 1,
-            rules: [filteredRule]
-        };
-        fs.writeFileSync(jsonFile, JSON.stringify(singboxOutput, null, 2) + '\n');
-    } else {
-        // Create empty ruleset if no rules
-        const singboxOutput = {
-            version: 1,
-            rules: []
-        };
-        fs.writeFileSync(jsonFile, JSON.stringify(singboxOutput, null, 2) + '\n');
-    }
+    if (singboxRule.domain_keyword.length > 0) ruleObject.domain_keyword = singboxRule.domain_keyword;
+    if (singboxRule.ip_cidr.length > 0) ruleObject.ip_cidr = singboxRule.ip_cidr;
+    if (singboxRule.ip_asn.length > 0) ruleObject.ip_asn = singboxRule.ip_asn;
+
+    const singboxOutput = {
+        version: 2,
+        rules: [ruleObject]
+    };
+
+    fs.writeFileSync(jsonFile, JSON.stringify(singboxOutput, null, 2) + '\n');
     console.log(`Converted ${file} to classical and sing-box formats.`);
 });
+
