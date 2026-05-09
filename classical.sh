@@ -1,2 +1,0 @@
-sed -e '/^\([+]\|#\|^$\)/! s/^/DOMAIN,/' -e 's/^+\./DOMAIN-SUFFIX,/g' ./non_ip/my_direct.txt > ./classical/my_direct.txt
-sed -e '/^\([+]\|#\|^$\)/! s/^/DOMAIN,/' -e 's/^+\./DOMAIN-SUFFIX,/g' ./non_ip/my_reject.txt > ./classical/my_reject.txt

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "adapi.izuiyou.com"
+      ],
+      "domain_suffix": [
+        "app-measurement.com",
+        "adukwai.com"
+      ]
+    }
+  ]
+}

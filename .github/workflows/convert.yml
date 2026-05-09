@@ -3,8 +3,11 @@ name: Convert Rules to Classical Format
 on:
   push:
     paths:
-      - 'non_ip/my_direct.txt'
       - 'non_ip/my_reject.txt'
+      - 'non_ip/my_proxy.txt'
+      - 'non_ip/my_direct.txt'
+      - 'ip/my_reject.txt'
+      - 'ip/my_direct.txt'
     branches:
       - main
 
@@ -18,13 +21,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6.0.2
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v6.4.0
+        with:
+          node-version: '24'
+
       - name: Run conversion script
-        run: |
-          chmod +x classical.sh
-          ./classical.sh
+        run: node convert.js
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v7.1.0
         with:
-          commit_message: "chore: auto-convert rules to classical format"
-          file_pattern: 'classical/*.txt'
+          commit_message: "chore: auto-convert rules to classical and sing-box formats"
+          file_pattern: 'classical/*.txt non_ip/*.json ip/*.json'
