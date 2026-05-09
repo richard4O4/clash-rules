@@ -76,8 +76,11 @@ files.forEach(file => {
     });
 
     // Write Classical
-    const classicalFile = path.join('classical', path.basename(file));
+    const isIP = file.startsWith('ip/');
+    const classicalFileName = isIP ? `ip_${path.basename(file)}` : path.basename(file);
+    const classicalFile = path.join('classical', classicalFileName);
     fs.writeFileSync(classicalFile, classicalLines.join('\n') + '\n');
+
 
     // Write Sing-box JSON
     const jsonFile = file.replace('.txt', '.json');

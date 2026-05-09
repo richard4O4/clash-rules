@@ -1,2 +1,128 @@
 DOMAIN,7h1s_rul35et_i5_mad3_by_r1ch4rd404-clash-rules.github.io
+# Alibaba
+DOMAIN-SUFFIX,alibabachengdun.com
+DOMAIN-SUFFIX,goofish.com
+
+# Bilibili
+DOMAIN-SUFFIX,bilicomic.com
+
+# ByteDance
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,bdurl.net
+DOMAIN-SUFFIX,bsccdn.net
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,byteeffecttos.com
+DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,bytegoofy.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytescm.com
+DOMAIN-SUFFIX,bytetcc.com
+DOMAIN-SUFFIX,bytetos.com
+DOMAIN-SUFFIX,ecombdapi.com
+DOMAIN-SUFFIX,ecombdpage.com
+DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN-SUFFIX,saxysec.com
+DOMAIN-SUFFIX,volcsirius.com
+DOMAIN-SUFFIX,zijieapi.com
+
+# catering
+DOMAIN-SUFFIX,canyin88.com
+
+# CN
+DOMAIN-SUFFIX,cn
+
+# Fenbi
+DOMAIN-SUFFIX,fbstatic.cn
+DOMAIN-SUFFIX,fenbi.com
+
+# Huawei
+DOMAIN-SUFFIX,chinasoftinc.com
+DOMAIN-SUFFIX,huaweicloud.com
+DOMAIN-SUFFIX,myhuaweicloud.com
+
+# JD
+DOMAIN-SUFFIX,300hu.com
+DOMAIN-SUFFIX,51epei.com
+DOMAIN-SUFFIX,7fresh.com
+DOMAIN-SUFFIX,baitiao.com
+DOMAIN-SUFFIX,dd-advisor.com
+DOMAIN-SUFFIX,duolabao.com
+DOMAIN-SUFFIX,healthjd.com
+DOMAIN-SUFFIX,jcloud.com
+DOMAIN-SUFFIX,jdbusiness.com
+DOMAIN-SUFFIX,jddj.com
+DOMAIN-SUFFIX,jdh.com
+DOMAIN-SUFFIX,jdl.com
+DOMAIN-SUFFIX,jdwl.com
+DOMAIN-SUFFIX,jhscm.com
+DOMAIN-SUFFIX,jingdong.com
+DOMAIN-SUFFIX,jingxi.com
+DOMAIN-SUFFIX,jkcsjd.com
+DOMAIN-SUFFIX,sqqmtj.com
+DOMAIN-SUFFIX,tjjt360.com
+DOMAIN-SUFFIX,vipmro.com
+DOMAIN-SUFFIX,vipmro.net
+DOMAIN-SUFFIX,ybscjp.com
+DOMAIN-SUFFIX,yiyaojd.com
+DOMAIN-SUFFIX,yunpei.com
+DOMAIN-SUFFIX,yunxiu.com
+
+# KFC
+DOMAIN-SUFFIX,kfc.com.cn
+
+# Payment
+DOMAIN-SUFFIX,ourduda.com
+DOMAIN-SUFFIX,shouqianba.com
+DOMAIN-SUFFIX,wosaimg.com
+
+# SF Express
+DOMAIN-SUFFIX,sf-express.com
+
+# Shenzhen Metro
+DOMAIN-SUFFIX,shenzhenmc.com
+
+# Sinopec
+DOMAIN-SUFFIX,gd95105888.com
+DOMAIN-SUFFIX,sinopec.com
+
+# Tencent
+DOMAIN-SUFFIX,cdntips.net
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,wxcloudrun.com
+
+# Tipray
+DOMAIN-SUFFIX,tipray.com
+
+# ToDesk
+DOMAIN-SUFFIX,todesk.com
+
+# Tuhu
+DOMAIN-SUFFIX,tongdun.net
+DOMAIN-SUFFIX,tuhu.com
+DOMAIN-SUFFIX,tuhu.org
+
+# Xiaoshi Technology
+DOMAIN-SUFFIX,xiaoshikeji.net
+
+# Zuiyou
+DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,ixiaochuan.cn
+DOMAIN-SUFFIX,izuiyou.com
+DOMAIN-SUFFIX,kuiniuca.com
+DOMAIN-SUFFIX,onethingpcs.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,ugdtimg.com
+DOMAIN-SUFFIX,uhabo.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,xf-yun.com
+DOMAIN-SUFFIX,xycdn.com
+
+# 2bulu
+DOMAIN-SUFFIX,2bulu.com
 
