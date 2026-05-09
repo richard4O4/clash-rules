@@ -70,6 +70,7 @@
 
 # KFC
 +.kfc.com.cn
++.example.com
 
 # Payment
 +.ourduda.com
