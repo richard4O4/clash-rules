@@ -1,0 +1,30 @@
+name: Convert Rules to Classical Format
+
+on:
+  push:
+    paths:
+      - 'non_ip/my_direct.txt'
+      - 'non_ip/my_reject.txt'
+    branches:
+      - main
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6.0.2
+
+      - name: Run conversion script
+        run: |
+          chmod +x classical.sh
+          ./classical.sh
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v7.1.0
+        with:
+          commit_message: "chore: auto-convert rules to classical format"
+          file_pattern: 'classical/*.txt'
