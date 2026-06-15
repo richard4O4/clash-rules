@@ -39,7 +39,10 @@ DOMAIN-SUFFIX,fenbi.com
 
 # Huawei
 DOMAIN-SUFFIX,chinasoftinc.com
+DOMAIN-SUFFIX,effirst.com
+DOMAIN-SUFFIX,guance.com
 DOMAIN-SUFFIX,huaweicloud.com
+DOMAIN-SUFFIX,isoftstone.com
 DOMAIN-SUFFIX,myhuaweicloud.com
 
 # JD
