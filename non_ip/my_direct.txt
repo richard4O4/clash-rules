@@ -38,7 +38,10 @@
 
 # Huawei
 +.chinasoftinc.com
++.effirst.com
++.guance.com
 +.huaweicloud.com
++.isoftstone.com
 +.myhuaweicloud.com
 
 # JD
