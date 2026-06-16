@@ -33,6 +33,9 @@ DOMAIN-SUFFIX,canyin88.com
 # CN
 DOMAIN-SUFFIX,cn
 
+# DiDi
+DOMAIN-SUFFIX,xiaojukeji.com
+
 # Fenbi
 DOMAIN-SUFFIX,fbstatic.cn
 DOMAIN-SUFFIX,fenbi.com
@@ -76,6 +79,9 @@ DOMAIN-SUFFIX,yunxiu.com
 DOMAIN-SUFFIX,hwwt8.com
 DOMAIN-SUFFIX,zztfly.com
 
+# Leyu Management
+DOMAIN-SUFFIX,szajly.com
+
 # Payment
 DOMAIN-SUFFIX,ourduda.com
 DOMAIN-SUFFIX,shouqianba.com
@@ -107,6 +113,9 @@ DOMAIN-SUFFIX,todesk.com
 DOMAIN-SUFFIX,tongdun.net
 DOMAIN-SUFFIX,tuhu.com
 DOMAIN-SUFFIX,tuhu.org
+
+# udream
+DOMAIN-SUFFIX,udream.com
 
 # Xiaoshi Technology
 DOMAIN-SUFFIX,xiaoshikeji.net
