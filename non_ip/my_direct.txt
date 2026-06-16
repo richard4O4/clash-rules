@@ -94,6 +94,7 @@
 +.cdntips.net
 +.servicewechat.com
 +.wxcloudrun.com
++.wxgateway.com
 
 # Tipray
 +.tipray.com
