@@ -95,6 +95,7 @@ DOMAIN-SUFFIX,sinopec.com
 DOMAIN-SUFFIX,cdntips.net
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,wxcloudrun.com
+DOMAIN-SUFFIX,wxgateway.com
 
 # Tipray
 DOMAIN-SUFFIX,tipray.com
