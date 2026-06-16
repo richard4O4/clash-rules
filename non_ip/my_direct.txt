@@ -32,6 +32,9 @@
 # CN
 +.cn
 
+# DiDi
++.xiaojukeji.com
+
 # Fenbi
 +.fbstatic.cn
 +.fenbi.com
@@ -75,6 +78,9 @@
 +.hwwt8.com
 +.zztfly.com
 
+# Leyu Management
++.szajly.com
+
 # Payment
 +.ourduda.com
 +.shouqianba.com
@@ -106,6 +112,9 @@
 +.tongdun.net
 +.tuhu.com
 +.tuhu.org
+
+# udream
++.udream.com
 
 # Xiaoshi Technology
 +.xiaoshikeji.net
