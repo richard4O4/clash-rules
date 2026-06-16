@@ -71,6 +71,10 @@
 +.yunpei.com
 +.yunxiu.com
 
+# KFC
++.hwwt8.com
++.zztfly.com
+
 # Payment
 +.ourduda.com
 +.shouqianba.com
